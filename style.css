@@ -47,7 +47,7 @@ body{
 /* POLICE STYLING  */
 .police {
     position: absolute;
-    left: -100px;
+    left: 0;
     width: 200px;
     height: 80px;
     background: #3f4c54;
@@ -60,7 +60,7 @@ body{
 }
 
 .police:nth-child(2){
-    left: 200px;
+    left: 500px;
     animation-delay: -2.5s;
 }
 
@@ -282,7 +282,7 @@ body{
 /* TAXI STYLING  */
 .taxi {
     position: absolute;
-    right: 50px;
+    right: 100px;
     width: 200px;
     height: 80px;
     background: #f4b603;
@@ -461,4 +461,127 @@ body{
     height: 10px;
     background: #fdd206;
     border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 1300px){
+    .police {
+        left: 0;
+    }
+    
+    .police:nth-child(2){
+        left: 500px;
+    }
+
+    .taxi {
+        right: 50px;
+    }
+}
+
+@media (max-width: 1100px){
+    .police {
+        left: -20px;
+    }
+    
+    .police:nth-child(2){
+        left: 400px;
+    }
+
+    .taxi {
+        right: 50px;
+    }
+}
+
+@media (max-width: 1000px){
+    .police {
+        left: -50px;
+    }
+    
+    .police:nth-child(2){
+        left: 350px;
+    }
+
+    .taxi {
+        right: 50px;
+    }
+}
+
+@media (max-width: 900px){
+    .police {
+        left: -90px;
+    }
+    
+    .police:nth-child(2){
+        left: 250px;
+    }
+
+    .taxi {
+        right: 50px;
+    }
+}
+
+@media (max-width: 830px){
+    .police {
+        left: -120px;
+    }
+    
+    .police:nth-child(2){
+        left: 200px;
+    }
+
+    .taxi {
+        right: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    .police {
+        left: -200px;
+    }
+    
+    .police:nth-child(2){
+        left: 100px;
+    }
+
+    .taxi {
+        right: 50px;
+    }
+}
+
+@media (max-width: 740px){
+    .police {
+        left: -350px;
+    }
+    
+    .police:nth-child(2){
+        left: 50px;
+    }
+
+    .taxi {
+        right: 20px;
+    }
+}
+
+@media (max-width: 620px){
+    .police {
+        left: -400px;
+    }
+    
+    .police:nth-child(2){
+        left: 0px;
+    }
+
+    .taxi {
+        right: 10px;
+    }
+}
+
+@media (max-width: 540px){
+    
+    .police:nth-child(2){
+        left: -50px;
+    }
+
+    .taxi {
+        right: 0;
+    }
 }
